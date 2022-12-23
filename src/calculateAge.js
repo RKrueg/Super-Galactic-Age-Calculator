@@ -14,5 +14,7 @@ export class Calculate {
     let marsAge = this.age / 1.88;
     return parseInt(marsAge)
   }
-  
+  getAgeOnJupiter() {
+   
+  }
 }
