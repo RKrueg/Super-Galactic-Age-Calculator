@@ -13,4 +13,8 @@ describe('Calculate', () => {
     let calculate = new Calculate(32)
     expect(calculate.getAgeOnMars()).toEqual(17)
   })
+  test('should correctly determine a persons age based on Jupiters solar year', () => {
+    let calculate = new Calculate(32)
+    expect(calculate.getAgeOnJupiter()).toEqual(2)
+  })
 })
