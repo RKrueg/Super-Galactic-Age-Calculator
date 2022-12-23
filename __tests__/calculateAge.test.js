@@ -9,4 +9,8 @@ describe('Calculate', () => {
     let calculate = new Calculate(32)
     expect(calculate.getAgeOnVenus()).toEqual(51)
   })
+  test('should correctly determine a persons age based on Mars solar year', () => {
+    let calculate = new Calculate(32)
+    expect(calculate.getAgeOnMars()).toEqual(17)
+  })
 })
