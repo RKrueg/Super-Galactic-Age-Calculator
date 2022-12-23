@@ -6,5 +6,8 @@ export class Calculate {
     let mercuryAge = this.age / .24;
     return parseInt(mercuryAge)
   }
+  getAgeOnVenus() {
+    
+  }
   
 }
