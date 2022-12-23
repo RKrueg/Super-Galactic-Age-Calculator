@@ -10,5 +10,8 @@ export class Calculate {
     let venusAge = this.age / .62;
     return parseInt(venusAge)
   }
+  getAgeOnMars() {
+    
+  }
   
 }
