@@ -5,4 +5,8 @@ describe('Calculate', () => {
     let calculate = new Calculate(32)
     expect(calculate.getAgeOnMercury()).toEqual(133);
   })
+  test('should correctly determine a persons age based on Venus solar year', ()  => {
+    let calculate = new Calculate(32)
+    expect(calculate.getAgeOnVenus()).toEqual(51)
+  })
 })
