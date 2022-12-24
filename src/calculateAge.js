@@ -73,4 +73,7 @@ export class Calculate {
     let marsYearsToPass = futureAge - marsAge;
     return parseInt(marsYearsToPass)
   }
+  jupiterYearsYetToPass() {
+    
+  }
 }
