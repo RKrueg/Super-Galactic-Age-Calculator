@@ -57,8 +57,12 @@ describe('Calculate', () => {
     let calculateAge = new Calculate(32, 22, 42)
      expect(calculateAge.jupiterYearsYetToPass()).toEqual(.84)
   })
-  test('should determine how many years for each planet and show results in string', () => {
+  test('should determine how many years have passed since a past birthday age for each planet and show results in string', () => {
     let calculateAge = new Calculate(32, 22, 42)
      expect(calculateAge.returnYearsPassed()).toEqual("10 Earth years have passed. 41 Mercury years have passed. 16 Venus years have passed. 5 Mars years have passed. 0.84 Jupiter years have passed.")
+  })
+  test('should determine how many years have yet to pass for each planet and show results in string', () => {
+    let calculateAge = new Calculate(32, 22, 42)
+     expect(calculateAge.returnYearsYetToPass()).toEqual("10 Earth years have yet to pass. 41 Mercury years have yet to pass. 16 Venus years have yet to pass. 5 Mars years have yet to pass. 0.84 Jupiter years have yet to pass.")
   })
 })
