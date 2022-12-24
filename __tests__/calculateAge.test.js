@@ -17,12 +17,8 @@ describe('Calculate', () => {
     let calculateAge = new Calculate(32)
     expect(calculateAge.getAgeOnJupiter()).toEqual(2)
   })
-  test('should determine how many years have passed on each planet since a past birthday', () => {
-    let calculateAge = new Calculate(32)
-    expect(calculateAge.getYearsPassedEarth()).toEqual(10)
-    expect(calculateAge.getYearsPassedMercury()).toEqual(41)
-    expect(calculateAge.getYearsPassedVenus()).toEqual(16)
-    expect(calculateAge.getYearsPassedMars()).toEqual(6)
-    expect(calculateAge.getYearsPassedJupiter()).toEqual(1)
+  test('should determine how many years have passed on each Earth since a past birthday', () => {
+    let calculateAge = new Calculate(32, 22)
+     expect(calculateAge.getYearsPassedOnEarth()).toEqual(10)
   })
 })
