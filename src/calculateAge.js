@@ -1,4 +1,4 @@
-export class Calculate {
+export default class Calculate {
   constructor(age, pastDateAge, futureDateAge) {
     this.age = age;
     this.pastDateAge = pastDateAge;
