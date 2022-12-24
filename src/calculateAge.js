@@ -43,6 +43,9 @@ export class Calculate {
     return parseInt(yearsPassedMars)
   }
   getYearsPassedOnJupiter() {
-   
+    let jupAge = this.age / 11.86;
+    let pastJupAge = this.pastDateAge / 11.86;
+    let yearsPassedJupiter = jupAge - pastJupAge;
+    return Math.floor(yearsPassedJupiter * 100)/100;
   }
 }
