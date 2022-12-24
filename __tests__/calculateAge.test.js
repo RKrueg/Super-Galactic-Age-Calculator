@@ -43,6 +43,6 @@ describe('Calculate', () => {
   })
   test('should determine how many years have yet to pass until a future birthday on Mercury', () => {
     let calculateAge = new Calculate(32, 22, 42)
-     expect(calculateAge.earthYearsYetToPass()).toEqual(37)
+     expect(calculateAge.mercYearsYetToPass()).toEqual(41)
   })
 })
