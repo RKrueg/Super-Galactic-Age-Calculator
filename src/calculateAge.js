@@ -55,4 +55,10 @@ export class Calculate {
     let earthYearsToPass = futureAge - earthAge;
     return parseInt(earthYearsToPass)
   }
+  mercYearsYetToPass() {
+    let mercAge = this.age / .24;
+    let futureAge = this.futureDateAge / .24;
+    let mercYearsToPass = futureAge - mercAge;
+    return parseInt(mercYearsToPass)
+  }
 }
