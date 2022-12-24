@@ -37,4 +37,8 @@ describe('Calculate', () => {
     let calculateAge = new Calculate(32, 22)
      expect(calculateAge.getYearsPassedOnJupiter()).toEqual(.84)
   })
+  test('should determine how many years have yet to pass until a future birthday on Earth', () => {
+    let calculateAge = new Calculate(32, 22, 42)
+     expect(calculateAge.earthYearsYetToPass()).toEqual(10)
+  })
 })
