@@ -6,10 +6,13 @@
 
 ## Technologies Used
 
-* Jest
+* HTML
+* Javascript
 * Webpack
-* JavaScript
+* Jest
 * Node/npm
+* Babel
+* ESLint
 
 ## Description
 
