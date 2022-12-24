@@ -79,4 +79,7 @@ export default class Calculate {
     let jupiterYearsToPass = futureAge - jupAge;
     return Math.floor(jupiterYearsToPass * 100)/100;
   }
+  returnYearsPassed() {
+   
+  }
 }
