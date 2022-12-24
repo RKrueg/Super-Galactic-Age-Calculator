@@ -80,6 +80,12 @@ export default class Calculate {
     return Math.floor(jupiterYearsToPass * 100)/100;
   }
   returnYearsPassed() {
-   
+    let earthAge = this.age - this.pastDateAge;
+    let mercAge = parseInt((this.age - this.pastDateAge) / .24);
+    let venAge = parseInt((this.age - this.pastDateAge) / .62);
+    let marsAge = parseInt((this.age - this.pastDateAge) / 1.88);
+    let jupAge = Math.floor((this.age - this.pastDateAge) / 11.86 * 100)/100;
+    let yearsPassed = `${earthAge} Earth years have passed. ${mercAge} Mercury years have passed. ${venAge} Venus years have passed. ${marsAge} Mars years have passed. ${jupAge} Jupiter years have passed.`
+    return yearsPassed;
   }
 }
