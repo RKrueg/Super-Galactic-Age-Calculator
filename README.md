@@ -2,7 +2,7 @@
 
 #### By _**Ryan Krueger**_
 
-#### _A simple page for determining your age on Mars, Venus, Jupiter, and Mercury._
+#### _A simple page for not only determining your age on Mars, Venus, Jupiter, and Mercury but also determining how many years have passed since a past birthday or how many years have yet to pass for a future birthday age on each planet!_
 
 ## Technologies Used
 
