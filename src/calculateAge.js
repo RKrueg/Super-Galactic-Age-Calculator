@@ -1,7 +1,7 @@
 export class Calculate {
-  constructor(age, pastDate) {
+  constructor(age, pastDateAge) {
     this.age = age;
-    this.pastDate = pastDate
+    this.pastDateAge = pastDateAge
   }
   getAgeOnMercury() {
     let mercuryAge = this.age / .24;
@@ -20,8 +20,14 @@ export class Calculate {
     return parseInt(jupiterAge)
   }
   getYearsPassedOnEarth() {
-    let pastAge = this.pastDate;
+    let pastAge = this.pastDateAge;
     let yearsPassedEarth = this.age - pastAge;
     return yearsPassedEarth
+  }
+  getYearsPassedOnMercury() {
+    let mercAge = this.age / .24;
+    let pastMercAge = this.pastDateAge / .24;
+    let yearsPassedMercury = mercAge - pastMercAge;
+    return parseInt(yearsPassedMercury)
   }
 }
