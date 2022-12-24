@@ -30,4 +30,7 @@ export class Calculate {
     let yearsPassedMercury = mercAge - pastMercAge;
     return parseInt(yearsPassedMercury)
   }
+  getYearsPassedOnVenus() {
+    
+  }
 }
