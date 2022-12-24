@@ -37,6 +37,9 @@ export class Calculate {
     return parseInt(yearsPassedVenus)
   }
   getYearsPassedOnMars() {
-    
+    let marsAge = this.age / 1.88;
+    let pastMarsAge = this.pastDateAge / 1.88;
+    let yearsPassedMars = marsAge - pastMarsAge;
+    return parseInt(yearsPassedMars)
   }
 }
