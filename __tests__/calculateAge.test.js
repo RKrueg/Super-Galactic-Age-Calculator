@@ -45,4 +45,8 @@ describe('Calculate', () => {
     let calculateAge = new Calculate(32, 22, 42)
      expect(calculateAge.mercYearsYetToPass()).toEqual(41)
   })
+  test('should determine how many years have yet to pass until a future birthday on Venus', () => {
+    let calculateAge = new Calculate(32, 22, 42)
+     expect(calculateAge.venusYearsYetToPass()).toEqual(16)
+  })
 })
