@@ -62,6 +62,9 @@ export class Calculate {
     return parseInt(mercYearsToPass)
   }
   venusYearsYetToPass() {
-    
+    let venAge = this.age / .62;
+    let futureAge = this.futureDateAge / .62;
+    let venusYearsToPass = futureAge - venAge;
+    return parseInt(venusYearsToPass)
   }
 }
