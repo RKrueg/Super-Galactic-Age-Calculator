@@ -89,6 +89,12 @@ export default class Calculate {
     return yearsPassed;
   }
   returnYearsYetToPass() {
-    
+    let earthAge = this.futureDateAge - this.age;
+    let mercAge = parseInt((this.futureDateAge - this.age) / .24);
+    let venAge = parseInt((this.futureDateAge - this.age) / .62);
+    let marsAge = parseInt((this.futureDateAge - this.age) / 1.88);
+    let jupAge = Math.floor((this.futureDateAge - this.age) / 11.86 * 100)/100;
+    let yearsYetToPass = `${earthAge} Earth years have yet to pass. ${mercAge} Mercury years have yet to pass. ${venAge} Venus years have yet to pass. ${marsAge} Mars years have yet to pass. ${jupAge} Jupiter years have yet to pass.`
+    return yearsYetToPass;
   }
 }
