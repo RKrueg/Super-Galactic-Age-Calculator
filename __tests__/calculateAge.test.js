@@ -25,4 +25,8 @@ describe('Calculate', () => {
     let calculateAge = new Calculate(32, 22)
      expect(calculateAge.getYearsPassedOnMercury()).toEqual(41)
   })
+  test('should determine how many years have passed on Venus since a past birthday', () => {
+    let calculateAge = new Calculate(32, 22)
+     expect(calculateAge.getYearsPassedOnVenus()).toEqual(16)
+  })
 })
