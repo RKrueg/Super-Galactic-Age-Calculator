@@ -18,4 +18,7 @@ export class Calculate {
     let jupiterAge = this.age / 11.86;
     return parseInt(jupiterAge)
   }
+  getYearsPassed() {
+    
+  }
 }
