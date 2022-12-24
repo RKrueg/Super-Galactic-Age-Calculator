@@ -61,4 +61,7 @@ export class Calculate {
     let mercYearsToPass = futureAge - mercAge;
     return parseInt(mercYearsToPass)
   }
+  venusYearsYetToPass() {
+    
+  }
 }
