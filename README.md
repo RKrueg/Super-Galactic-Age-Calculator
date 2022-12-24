@@ -21,7 +21,7 @@ _The application is meant to demonstrate my understanding of the Red, Green, Ref
 ## Setup/Installation Requirements
 
 * _Clone this repository to your desktop._
-* _Navigate to the top level of the directory._
+* _Open your terminal, navigate to root directory of this repo and follow the steps below._
 * _Install packages by running the following command $ npm install_
 * _Run the following command to build the project, $ npm run build_
 * _Run tests with jest with the following command $ npm run test_
