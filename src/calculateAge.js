@@ -88,4 +88,7 @@ export default class Calculate {
     let yearsPassed = `${earthAge} Earth years have passed. ${mercAge} Mercury years have passed. ${venAge} Venus years have passed. ${marsAge} Mars years have passed. ${jupAge} Jupiter years have passed.`
     return yearsPassed;
   }
+  returnYearsYetToPass() {
+    
+  }
 }
