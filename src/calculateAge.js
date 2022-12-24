@@ -67,4 +67,7 @@ export class Calculate {
     let venusYearsToPass = futureAge - venAge;
     return parseInt(venusYearsToPass)
   }
+  marsYearsYetToPass() {
+    
+  }
 }
